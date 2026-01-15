@@ -1,0 +1,58 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fond de la page */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1e90ff, #00bcd4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Titre */
+h1 {
+    margin-bottom: 20px;
+    color: #1e90ff;
+}
+
+/* Texte */
+p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Bouton */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1e90ff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet au survol */
+.btn:hover {
+    background-color: #187bcd;
+    transform: scale(1.05);
+}
