@@ -29,14 +29,14 @@ body {
 /* Titre */
 h1 {
     margin-bottom: 20px;
-    color: #1e90ff;
+    color: black;
 }
 
 /* Texte */
 p {
     margin-bottom: 30px;
     font-size: 16px;
-    color: #333;
+    color: black;
 }
 
 /* Bouton */
